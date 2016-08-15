@@ -1,0 +1,666 @@
+body{
+ 	font-family: 'Lora', serif;
+ 	background: url(../images/background.jpg) no-repeat top left;
+ 	}
+
+sup{
+	padding-left: 10px;
+	}
+h1{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.center{
+	margin: 0,auto;
+	text-align: center;
+}
+
+.line{
+	display: inline-flex;
+}
+
+.firstcharacter {  
+	font-size: 175px; 
+	/*	line-height: 60px;*/ 
+	padding-top: 40px; 
+	padding-right: 8px; 
+	}
+
+
+#imga{
+	z-index: 1000;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	height: 100%;
+	}
+.a{
+	/*background-color: orange;*/
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	}
+.a:hover {
+    cursor:pointer; 
+    color: orange;
+    background-image:url('a.gif');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgb{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0;
+	height: 70%;
+	}
+.b{
+	/*background-color: orange;*/
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.b:hover {
+    cursor:pointer; 
+    color: pink;
+    background-image:url('b.gif');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  	}
+
+#imgc{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0;
+	height: 100%;
+	}
+.c{
+	/*background-color: orange;*/
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.c:hover {
+    cursor:pointer; 
+    color: aquamarine;
+    background-image:url('c.gif');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+ #imgd{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0;
+	height: 100%;
+	}
+.d{
+	/*background-color: orange;*/
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.d:hover {
+    cursor:pointer; 
+    color: lightskyblue;
+    background-image:url('d.gif');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imge{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0;
+	height: 100%;
+	}
+.e{
+	/*background-color: orange;*/
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.e:hover {
+    cursor:pointer; 
+    color: lightpink;
+    background-image:url('e.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgf{
+	z-index: 1000;
+	position: absolute; 
+	top: -40px; 
+	left: 0;
+	height: 120%;
+	}
+.f{
+	/*background-color: orange;*/
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.f:hover {
+    cursor:pointer; 
+    color: mediumturquoise;
+    background-image:url('f.gif');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgg{
+	z-index: 1000;
+	position: absolute; 
+	top: -40px; 
+	left: 0;
+	height: 120%;
+	}
+.g{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.g:hover {
+    cursor:pointer; 
+    color: forestgreen;
+    background-image:url('g.gif');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgh{
+	z-index: 1000;
+	position: absolute; 
+	top: -40px; 
+	left: 0;
+	height: 120%;
+	}
+.h{
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.h:hover {
+    cursor:pointer; 
+    color: lightcoral;
+    background-image:url('h.gif');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgi{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: 0;
+	height: 120%;
+	}
+.i{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.i:hover {
+    cursor:pointer; 
+    color: darkorange;
+    background-image:url('i.gif');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgj{
+	z-index: 1000;
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	height: 100%;
+	}
+.j{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.j:hover {
+    cursor:pointer; 
+    color: deeppink;
+    background-image:url('j.gif');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgk{
+	z-index: 1000;
+	position: absolute; 
+	top: 20px; 
+	left: 0;
+	height: 80%;
+	}
+.k{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.k:hover {
+    cursor:pointer; 
+    color: gold;
+    background-image:url('k.gif');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+ #imgl{
+	z-index: 1000;
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	height: 100%;
+	}
+.l{
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.l:hover {
+    cursor:pointer; 
+    color: seagreen;
+    background-image:url('l.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+ #imgm{
+	z-index: 1000;
+	position: absolute; 
+	top: 20px; 
+	left: 0;
+	height: 80%;
+	}
+.m{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.m:hover {
+    cursor:pointer; 
+    color: indigo;
+    background-image:url('m.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+ #imgn{
+	z-index: 1000;
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	height: 100%;
+	}
+.n{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.n:hover {
+    cursor:pointer; 
+    color: deepskyblue;
+    background-image:url('n.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+ #imgo{
+	z-index: 1000;
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	height: 100%;
+	}
+.o{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.o:hover {
+    cursor:pointer; 
+    color: lawngreen;
+    background-image:url('o.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+ #imgp{
+	z-index: 1000;
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	height: 100%;
+	}
+.p{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.p:hover {
+    cursor:pointer; 
+    color: lightgreen;
+    background-image:url('p.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgq{
+	z-index: 1000;
+	position: absolute; 
+	top: -100px; 
+	left: -60px;
+	height: 85%;
+	}
+.q{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.q:hover {
+    cursor:pointer; 
+    color: orangered;
+    background-image:url('q.gif');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  	}
+
+#imgr{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0px;
+	height: 100%;
+	}
+.r{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.r:hover {
+    cursor:pointer; 
+    color: lightskyblue;
+    background-image:url('r.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left center;
+  	}
+
+#imgs{
+	z-index: 1000;
+	position: absolute; 
+	top: 10px; 
+	left: 0px;
+	height: 100%;
+	}
+.s{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.s:hover {
+    cursor:pointer; 
+    color: gold;
+    background-image:url('s.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left center;
+  	}
+
+#imgt{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.t{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.t:hover {
+    cursor:pointer; 
+    color: darkgreen;
+    background-image:url('t.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left center;
+  	}
+
+#imgu{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.u{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.u:hover {
+    cursor:pointer; 
+    color: turquoise;
+    background-image:url('u.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgv{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.v{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.v:hover {
+    cursor:pointer; 
+    color: violet;
+    background-image:url('v.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgw{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.w{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.w:hover {
+    cursor:pointer; 
+    color: royalblue;
+    background-image:url('w.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgx{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.x{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.x:hover {
+    cursor:pointer; 
+    color: mediumspringgreen;
+    background-image:url('x.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgy{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.y{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.y:hover {
+    cursor:pointer; 
+    color: darkorange;
+    background-image:url('y.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+#imgz{
+	z-index: 1000;
+	position: absolute; 
+	top: -20px; 
+	left: -20px;
+	height: 100%;
+	}
+.z{
+	width: 300px;
+	height: 200px;
+	z-index: 0;
+	position: relative;
+	font-size: 36px;
+	padding-left: 0;
+	}
+.z:hover {
+    cursor:pointer; 
+    color: cornflowerblue;
+    background-image:url('z.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  	}
+
+
+
+
+
+
+
